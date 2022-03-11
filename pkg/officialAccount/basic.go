@@ -14,7 +14,7 @@ func (ex *ExampleOfficialAccount) GetAccessToken(c *gin.Context) {
 		util.RenderError(c, err)
 		return
 	}
-	util.RenderSuccess(c, ak)
+	util.RenderSuccess(c, 'ssss')
 }
 
 //GetCallbackIP 获取微信callback IP地址
